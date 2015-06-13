@@ -10,6 +10,17 @@ zai ci xiugai
 gai gai gai
 huan gai
 Creating a new branch is quick.
+<<<<<<< HEAD
+<<<<<<< HEAD
+in master branch
+=======
+Create a branch feature1
+>>>>>>> feature1
+moshi
+
+zi ji de fen zhi xiu gai
+=======
 
 
 orther
+>>>>>>> 3504d4e310ac8d969dcbd70417c4f07554f2e1ab
