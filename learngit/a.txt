@@ -9,3 +9,4 @@ Git has a mutable index called stage
 zai ci xiugai
 gai gai gai
 huan gai
+Creating a new branch is quick.
