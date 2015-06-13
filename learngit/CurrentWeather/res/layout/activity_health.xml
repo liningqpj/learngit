@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0099cc"
+        android:gravity="center"
+        android:text="健康"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp" >
+
+        <android.support.v4.view.ViewPager
+        android:id="@+id/health_vp"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="5dp" >
+    </android.support.v4.view.ViewPager>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:background="#33000000" >
+
+            <TextView
+                android:id="@+id/news_list_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                   android:singleLine="true"
+                android:layout_marginLeft="10dp"
+                 android:textColor="@android:color/white"
+                android:text="图片标题"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/news_list_container_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.example.currentweather.xlistview.XListView
+        android:id="@+id/xlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.example.currentweather.xlistview.XListView>
+
+</LinearLayout>

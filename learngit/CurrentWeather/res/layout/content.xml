@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >  
+    <com.example.currentweather.widget.CustomScrollView
+         android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+         >
+    <RelativeLayout 
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        >
+   <com.example.currentweather.widget.AutoHeightViewPager
+        android:id="@+id/content_vp"
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content"  
+      />
+      
+    <RadioGroup
+        android:id="@+id/content_rg"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="30dp"
+        android:background="@drawable/content_btn_bg"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/content_rb_weather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+              android:gravity="center"
+           android:button="@null"
+            android:background="@drawable/conten_btn_selector"
+            android:text="天气" />
+
+        <RadioButton
+            android:id="@+id/content_rb_health"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+              android:button="@null"
+            android:background="@drawable/conten_btn_selector"
+            android:text="健康" />
+
+        <RadioButton
+            android:id="@+id/content_rb_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+              android:gravity="center"
+              android:button="@null"
+            android:background="@drawable/conten_btn_selector"
+            android:text="我" />
+    </RadioGroup>
+</RelativeLayout>
+</com.example.currentweather.widget.CustomScrollView>
+</LinearLayout>
