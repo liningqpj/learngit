@@ -10,4 +10,8 @@ zai ci xiugai
 gai gai gai
 huan gai
 Creating a new branch is quick.
+<<<<<<< HEAD
 in master branch
+=======
+Create a branch feature1
+>>>>>>> feature1
